@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodePro++ | منصة الخدمات الطلابية والبرمجية</title>
+    <title>++ CodePro | منصة الخدمات الطلابية والبرمجية</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
         
         body {
             font-family: 'Tajawal', 'Almarai', sans-serif;
+         /*   font-family: 'Fira Code', monospace;*/
             background-color: #f8fafc;
             scroll-behavior: smooth;
+
         }
         
         .hero-gradient {
@@ -111,9 +115,12 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <div class="flex-shrink-0 flex items-center">
-                        <div class="bg-indigo-600 text-white p-2 rounded-lg font-bold text-xl">
-                            CodePro<span class="text-indigo-300">++</span>
-                        </div>
+                        <!-- <div class="text-blue-800   p-2 rounded-lg font-bold text-2xl">
+                          <span class="">++</span>  CodePro 
+                        </div> -->
+                     <div class="bg-indigo-600 text-white p-2 rounded-lg font-bold text-xl inline-block mb-4">
+                       <span class="text-indigo-300">++</span> CodePro
+                    </div>
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4 rtl:space-x-reverse">
@@ -167,7 +174,7 @@
                 </div>
                 <div class="md:w-1/2 text-center md:text-right">
                     <h1 class="text-4xl md:text-5xl font-extrabold mb-6">
-                        منصة <span class="text-indigo-200">CodePro++</span> للخدمات الطلابية والبرمجية
+                        منصة <span class="text-indigo-200"><span class="">++</span>  CodePro </span> للخدمات الطلابية والبرمجية
                     </h1>
                     <p class="text-xl md:text-2xl mb-8 text-indigo-100">
                         نقدم حلولاً متكاملة لمشاريع التخرج، الأبحاث، التقارير الأكاديمية وتطوير التطبيقات والمواقع الاحترافية بأحدث التقنيات البرمجية.
@@ -496,7 +503,8 @@
                 
                 <!-- Tech 5 -->
                 <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition duration-300">
-                    <img src="https://cdn-icons-png.flaticon.com/512/919/919852.png" alt="Flutter" class="h-12 w-12">
+                    <img src="https://www.svgrepo.com/show/353751/flutter.svg" alt="Flutter" class="h-12 w-12">
+
                     <span class="mt-2 font-medium">Flutter</span>
                 </div>
                 
@@ -504,6 +512,11 @@
                 <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition duration-300">
                     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" class="h-12 w-12">
                     <span class="mt-2 font-medium">JavaScript</span>
+                </div>
+                <!-- Tech  -->
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition duration-300">
+                    <img src="https://www.svgrepo.com/show/452075/node-js.svg" alt="JavaScript" class="h-12 w-12">
+                    <span class="mt-2 font-medium">Node JS</span>
                 </div>
                 
                 <!-- Tech 7 -->
@@ -526,7 +539,7 @@
                 
                 <!-- Tech 10 -->
                 <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition duration-300">
-                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132217.png" alt="ASP.NET" class="h-12 w-12">
+                    <img src="https://www.svgrepo.com/show/508894/aspnet.svg" alt="ASP.NET" class="h-12 w-12">
                     <span class="mt-2 font-medium">ASP.NET</span>
                 </div>
                 
@@ -716,7 +729,7 @@
                             </div>
                             <div class="mr-4">
                                 <h3 class="text-lg font-medium text-gray-900">البريد الإلكتروني</h3>
-                                <p class="text-gray-600">info@codepro-plus.com</p>
+                                <a href="mailTo:azzaldeenalqashaei@gmail.com" class="text-gray-600">azzaldeenalqashaei@gmail.com</a>
                             </div>
                         </div>
                         
@@ -726,7 +739,7 @@
                             </div>
                             <div class="mr-4">
                                 <h3 class="text-lg font-medium text-gray-900">الهاتف</h3>
-                                <p class="text-gray-600">+966 50 000 0000</p>
+                                <a href="tel:+967737389484" class="text-gray-600">+967 737 389 484</a>
                             </div>
                         </div>
                         
@@ -736,7 +749,7 @@
                             </div>
                             <div class="mr-4">
                                 <h3 class="text-lg font-medium text-gray-900">واتساب</h3>
-                                <p class="text-gray-600">+966 50 000 0000</p>
+                                <a href="tel:+967737389484"  class="text-gray-600">+967 737 389 484</a>
                                 <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" class="inline-flex items-center mt-2 text-indigo-600 hover:text-indigo-800 font-medium">
                                     اضغط للتواصل <i class="fas fa-arrow-left ml-1"></i>
                                 </a>
@@ -783,7 +796,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <div class="bg-indigo-600 text-white p-2 rounded-lg font-bold text-xl inline-block mb-4">
-                        CodePro<span class="text-indigo-300">++</span>
+                       <span class="text-indigo-300">++</span> CodePro
                     </div>
                     <p class="text-gray-400">
                         منصة تعليمية وخدمية متخصصة في تنفيذ المشاريع الأكاديمية والبرمجية بجودة عالية واحترافية.
@@ -827,31 +840,44 @@
                         <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition duration-300">
                             <i class="fab fa-whatsapp"></i>
                         </a>
+                        <a href="https://t.me/Eng_Azzaldeen" target="_blank" class="bg-gray-800 hover:bg-gray-700 p-3 rounded-full transition duration-300">
+                            <i class="fab fa-telegram"></i>
+                        </a>
                     </div>
                     <div class="mt-4">
-                        <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" class="inline-flex items-center text-green-400 hover:text-green-300">
+                        <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" 
+                        class="inline-flex items-center text-green-400 hover:text-green-300">
                             <i class="fab fa-whatsapp ml-2"></i>
                             تواصل عبر واتساب
+                        </a>
+                             <a href="https://t.me/Eng_Azzaldeen" target="_blank"class="inline-flex items-center text-blue-400 hover:text-green-300">
+                            <i class="fab fa-telegram  ml-2"></i>
+                            تواصل عبر تلجرام
                         </a>
                     </div>
                 </div>
             </div>
             
-            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm">
-                    &copy; 2023 CodePro++. جميع الحقوق محفوظة.
-                </p>
-                <div class="flex space-x-6 rtl:space-x-reverse mt-4 md:mt-0">
+            <div class="border-t border-gray-800 mt-12  pt-8 flex flex-col md:flex-row justify-spacearound items-center">
+                <div class="flex space-x-6 rtl:space-x-reverse mt-4 mx-12 md:mt-0">
                     <a href="#" class="text-gray-400 hover:text-white text-sm">سياسة الخصوصية</a>
-                    <a href="#" class="text-gray-400 hover:text-white text-sm">شروط الخدمة</a>
+                    <a href="#" class="text-gray-400  hover:text-white text-sm">شروط الخدمة</a>
                 </div>
+                  <p class="text-gray-400 mx-12 text-sm">
+                 جميع الحقوق محفوظة   &copy; 2025 ++ CodePro     
+                </p>
             </div>
         </div>
     </footer>
 
     <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" class="fixed bottom-6 left-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition duration-300 animate-bounce">
+    <a href="https://wa.me/message/CJ2FK774AOUKA1" target="_blank" class="fixed bottom-6 left-6 bg-green-500 text-white p-3
+     rounded-full shadow-lg hover:bg-green-600 transition duration-300 animate-bounce">
         <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+    <a href="https://t.me/Eng_Azzaldeen" target="_blank" class="fixed bottom-6 left-20 bg-blue-400 text-white p-3
+     rounded-full shadow-lg hover:bg-green-600 transition duration-300 animate-bounce">
+        <i class="fab fa-telegram text-2xl"></i>
     </a>
 
     <!-- Back to Top Button -->
